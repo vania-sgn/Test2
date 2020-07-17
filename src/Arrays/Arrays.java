@@ -20,8 +20,10 @@ public class Arrays {
         a= new int[n];
         for (int i=0;i<n;i++){
             System.out.println(" Enter a["+i+"]=");
-            a[i]=in.nextInt();
+            a[i]=in.nextInt(); }
+        for(int j=0;j<a.length;j++) {
+            System.out.println(" -------------injected array:");
+            System.out.println(a[j]);
         }
-
     }
 }
