@@ -6,6 +6,7 @@ public class While_Cycles {
         while(j<20){
             System.out.println(j);
             j++;
+
         }
     }
 }
